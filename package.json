@@ -1,0 +1,23 @@
+{
+  "name": "jenkins-style-k8s-dashboard",
+  "version": "1.0.0",
+  "description": "A Jenkins-styled dashboard to display Kubernetes health metrics using Node.js and Express",
+  "main": "dashboard.js",
+  "scripts": {
+    "start": "node dashboard.js"
+  },
+  "keywords": [
+    "kubernetes",
+    "dashboard",
+    "jenkins",
+    "healthcheck",
+    "express"
+  ],
+  "author": "Wayne Clancy",
+  "license": "MIT",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.19.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
